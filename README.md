@@ -42,3 +42,12 @@ Access the app
 ```
 http://localhost:3000/
 ```
+
+- Install Sequelize
+```
+npm install -g sequelize-cli
+
+npm install --save sequelize mysql
+```
+
+
