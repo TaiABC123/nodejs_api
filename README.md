@@ -47,7 +47,5 @@ http://localhost:3000/
 ```
 npm install -g sequelize-cli
 
-npm install --save sequelize mysql
+npm install --save sequelize mysql2
 ```
-
-
