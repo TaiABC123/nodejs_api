@@ -49,5 +49,3 @@ npm install -g sequelize-cli
 
 npm install --save sequelize mysql2
 ```
-
-
