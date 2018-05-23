@@ -15,6 +15,12 @@ module.exports = {
       .then(todos => res.status(200).send(todos))
       .catch(error => res.status(400).send(error));
   },
+  show(req, res) {
+    return Todo
+      .findById(req.params.todoId)
+      .then(todo => res.status(200).send(todo))
+      .catch(error => res.status(400).send(error));
+  },
   update(req, res) {
   return Todo
     .findById(req.params.todoId)
